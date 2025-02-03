@@ -15,7 +15,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # ✅ Manually Set Google API Key
-google_api_key = "AIzaSyA2NVC2A_amC2rL2i6dX0KbIrbR7kChE4w"  # 🔥 Replace with your API key
+google_api_key = "API KEY"  # 🔥 Replace with your API key
 
 # ✅ Load PDF Function
 def load_pdf(file_path):
